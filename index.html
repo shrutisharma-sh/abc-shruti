@@ -6,15 +6,15 @@
     <title>Webdev-shruti</title>
 </head>
 <body>
-    <header> Shruti Sharma </header>
-    <h1>Information</h1>
-    <div>
+    <header id="head-shruti"> Shruti Sharma </header>
+    <h1 id="info">Information</h1>
+    <div id="outer-box">
         <form action="post " id="form">
-           <div>
+           <div class="details">
             <label for="name "> Your Full Name</label>
             <input type="text" id="fullname" name="fullname" placeholder="Enter your Name here" required>
            </div>
-           <div>
+           <div class="details">
             <label for="gender">Specify Yourself </label>
             <br>
             <input type="radio" name="gender" id="male" value="male">
@@ -22,20 +22,20 @@
             <input type="radio" name="gender" id="female" value="female">
             <label for="female">Female</label>
            </div>
-           <div>
+           <div class="details">
             <label for="emali">Your Email Address</label>
             <input type="text" id="emali" name="email" placeholder="Enter your Email address" required>
            </div>
-           <div>
+           <div class="details">
             <label for="pass">Create a password </label>
             <input type="text" name="pass" id="pass" >
            </div>
-           <div>
+           <div class="details">
             <label for="comment">Provide your feedback</label>
             <br>
             <textarea name="comment" id="comment"></textarea>
            </div>
-           <div>
+           <div class="details">
             <input type="checkbox" name="subs" id="subs" value="yes">
             <label for="subs">SUBSCRIBE TO PAGE</label>
            </div>
