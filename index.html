@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webdev-shruti</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header id="head-shruti"> Shruti Sharma </header>
@@ -11,33 +12,33 @@
     <div id="outer-box">
         <form action="post " id="form">
            <div class="details">
-            <label for="name "> Your Full Name</label>
+            <label for="fullname " class="detail-title"> Your Full Name -</label>
             <input type="text" id="fullname" name="fullname" placeholder="Enter your Name here" required>
            </div>
            <div class="details">
-            <label for="gender">Specify Yourself </label>
-            <br>
+            <label for="gender" class="detail-title">Specify Yourself - </label>
+            
             <input type="radio" name="gender" id="male" value="male">
-            <label for="male">Male</label>
+            <label for="male" class="detail-title">Male</label>
             <input type="radio" name="gender" id="female" value="female">
-            <label for="female">Female</label>
+            <label for="female" class="detail-title">Female</label>
            </div>
            <div class="details">
-            <label for="emali">Your Email Address</label>
+            <label for="emali" class="detail-title">Your Email Address -</label>
             <input type="text" id="emali" name="email" placeholder="Enter your Email address" required>
            </div>
            <div class="details">
-            <label for="pass">Create a password </label>
+            <label for="pass" class="detail-title">Create a password -</label>
             <input type="text" name="pass" id="pass" >
            </div>
            <div class="details">
-            <label for="comment">Provide your feedback</label>
+            <label for="comment" class="detail-title">Provide your feedback -</label>
             <br>
             <textarea name="comment" id="comment"></textarea>
            </div>
            <div class="details">
             <input type="checkbox" name="subs" id="subs" value="yes">
-            <label for="subs">SUBSCRIBE TO PAGE</label>
+            <label for="subs" class="detail-title">SUBSCRIBE TO PAGE</label>
            </div>
         </form>
     </div>
